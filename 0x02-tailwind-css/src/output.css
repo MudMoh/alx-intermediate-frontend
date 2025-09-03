@@ -1,12 +1,62 @@
-/*! tailwindcss v4.1.12 | MIT License | https://tailwindcss.com */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
+
 .grid {
   display: grid;
-}
-.grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
 }
+
 @media (max-width: 768px) {
-  main {
+  .grid {
     grid-template-columns: 1fr;
   }
+}
+
+.bg-blue-200 {
+  background-color: #bae6fd;
+}
+
+.bg-blue-300 {
+  background-color: #93c5fd;
+}
+
+.bg-blue-400 {
+  background-color: #60a5fa;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.bg-red-200 {
+  background-color: #fecaca;
+}
+.bg-red-300 {
+  background-color: #fca5a5;
+}
+.bg-red-400 {
+  background-color: #f87171;
+}
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
