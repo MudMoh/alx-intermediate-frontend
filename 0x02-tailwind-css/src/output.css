@@ -52,6 +52,12 @@
 .bg-blue-500 {
   background-color: #3b82f6;
 }
+.bg-green-200 {
+  background-color: #bbf7d0;
+}
+.bg-yellow-200 {
+  background-color: #fef3c7;
+}
 
 .p-4 {
   padding: 1rem;
